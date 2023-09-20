@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Love</title>
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+    <div class="container">
+            <h1>HAPPY 1 MONTH OF LOVE, MY BABY ♡ʕ•ᴥ•ʔ♡</h1>
+            <p>Salamat talaga at nag-apologize ako 😜 lol. Anyways, you don't know how much I am thankful na tinanggap mo ulit ako despite of my <br>
+            kagagahan dati (really regretted it).  Baby, you know na I'm always here for you ha? Whenever you feel like not talking but want someone, i can be that someone!<br>
+            Sana whenever you're doubting yourself, lagi mong isipin na i believe in you! I'll be your number 1 supporter sa lahat, again you have me.<br>
+            I'm sorry talaga sa nagawa ko dati and i don't think titigil ako na humingi ng tawad sa'yo. <br>
+            I really hope you're my last, kahit medyo nasa peak pa lang us ng buhay natin, i really hope na ikaw na talaga kasi nakakapagod na kumilala ng tao.<br>
+            I love you! I hope na i make you happy everyday and mafeel mo yung love na naibibigay ko sa'yo, sa paraang alam ko. Wishing also na i can still be the one you need when the time comes na parang hindi mo na ako kailangan HAHAHAHAHA basta 'yon.<br>
+            MORE MOTMOTS TO COME WITH YOU, GODBLESS, BE HAPPY & STAY HEALTHY ❤️</p>
+
+            <h3>I LOVE YOU! YOU MATTER! I APPRECIATE YOU! WE'RE ON THIS TOGETHER 🧸❤️</h3>
+
+            <button id="popupButton">Click ME</button>
+            <div id="popup" class="popup">
+                <img src="images/popup.jpg" alt="Popup Image">
+                <span class="close" id="closePopup">&times;</span>
+            </div>
+            <a href="https://open.spotify.com/track/1K0rybxoxW5svDYwXezXyN?si=35350d2d40f143e8">
+                <button>Song for you!</button>
+            </a>
+    </div>
+
+<script>
+    const popupButton = document.getElementById('popupButton');
+    const popup = document.getElementById('popup');
+    const closePopup = document.getElementById('closePopup');
+
+    popupButton.addEventListener('click', () => {
+        popup.style.display = 'block';
+    });
+
+    closePopup.addEventListener('click', () => {
+        popup.style.display = 'none';
+    });
+
+    // Close the popup if the user clicks outside of it
+    window.addEventListener('click', (event) => {
+        if (event.target == popup) {
+            popup.style.display = 'none';
+        }
+    });
+</script>
+
+</body>
+</html>
